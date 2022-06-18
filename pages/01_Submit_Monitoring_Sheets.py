@@ -217,8 +217,8 @@ def finalize_template(omr_api, storage_api, template_id, corrected_template_path
     return result
 
 def run_analyzer(user_image):
-
-    configuration = Configuration(apiKey='9bec2d498083d9dd43c1a2381fdbfa88', appSid='cc88445b-673f-4550-822f-c17b257e4312')
+    
+    configuration = Configuration(apiKey=st.secrets["aspose_key"], appSid=st.secrets["aspose_client"])
 
     api = OmrApi(configuration)
     storage = storage_api.StorageApi(configuration)
