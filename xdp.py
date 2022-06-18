@@ -63,7 +63,7 @@ style = """
 """
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Talk_to_an_Expert">
+<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Chatbot_for_XDP_Patients">
     <button class="button button1">
         💬 Chatbot for XDP Patients
     </button>
