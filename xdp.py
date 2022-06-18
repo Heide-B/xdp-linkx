@@ -11,7 +11,7 @@ st.set_page_config(initial_sidebar_state="collapsed")
 session = list(st.server.server.Server.get_current()._session_info_by_id.keys())[0]
 url = dict(st.server.server.Server.get_current()._get_session_info(session).ws.request.headers)
 relative_url =url['Host']
-
+st.write(relative_url)
 def set_bg_hack(main_bg):
     '''
     A function to unpack an image from root folder and set as bg.
