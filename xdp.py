@@ -11,7 +11,7 @@ st.set_page_config(initial_sidebar_state="collapsed")
 session = list(st.server.server.Server.get_current()._session_info_by_id.keys())[0]
 url = dict(st.server.server.Server.get_current()._get_session_info(session).ws.request.headers)
 relative_url =url['Host']
-st.write(relative_url)
+
 def set_bg_hack(main_bg):
     '''
     A function to unpack an image from root folder and set as bg.
@@ -63,7 +63,7 @@ style = """
 """
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="http://{relative_url}/Talk_to_an_Expert">
+<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Talk_to_an_Expert">
     <button class="button button1">
         💬 Chatbot for XDP Patients
     </button>
@@ -72,7 +72,7 @@ c2.markdown(f"""<style>{style}</style>
 c2.title("")
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="http://{relative_url}/Submit_Monitoring_Sheets">
+<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Submit_Monitoring_Sheets">
     <button class="button button1">
         📝 Record Symptoms
     </button>
@@ -81,7 +81,7 @@ c2.markdown(f"""<style>{style}</style>
 c2.title("")
 
 c2.write(f"""<style>{style}</style>
-<a target="_self" href="http://{relative_url}/Read_Up_On_XDP">
+<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Read_Up_On_XDP">
     <button class="button button1">
         📖 Read up on XDP
     </button>
@@ -90,7 +90,7 @@ c2.write(f"""<style>{style}</style>
 c2.title("")
 
 c2.write(f"""<style>{style}</style>
-<a target="_self" href="http://{relative_url}/Experts_Dashboard">
+<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Experts_Dashboard">
     <button class="button button1">
         🏢 Expert's Portal
     </button>
