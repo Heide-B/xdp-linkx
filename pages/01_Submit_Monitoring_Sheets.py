@@ -13,7 +13,7 @@ from asposeomrcloud.apis.omr_api import OmrApi
 from asposeomrcloud.models import OmrFunctionParam
 
 from collections import OrderedDict
-
+st.set_page_config(initial_sidebar_state="collapsed")
 
 PATH_TO_OUTPUT = './temp'
 TEMPLATE_NAME = 'Aspose_test'
