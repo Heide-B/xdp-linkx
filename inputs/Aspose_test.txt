@@ -1,0 +1,38 @@
+?image=logo1.jpg
+	align=left
+
+?text=Patient Name__________________________________
+
+?grid=Patient ID
+	sections_count=8
+?text=Itiman ang numero base sa karamdaman. Ito ang kahulugan ng mga numero:
+?text=Shade the number based on how much you currently feel the symptom. These are the numerical equivalents:
+?text=0 - Hindi naramramdaman (I don't experience this)
+?text=1 - Hindi madalas pero hindi malala ang karamdaman (Seldom and mild)
+?text=5 - Palagi at malala ang karamdaman (Constant and severe)
+
+
+#Hirap ako sa pag sulat, maneho, o mga simpleng gawain gamit ang kamay. (I have a hard time writing, driving, or any fine motor movements)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa paglakad. (I have a hard time walking)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagsalita, kain, ngiti o pag galaw ng mukha (I have a hard time talking, eating, smiling or any facial movements)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+	(0) (1) (2) (3) (4) (5)
+#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+	(0) (1) (2) (3) (4) (5)
+
+
+?text=Sign________________________________
+
+?image=logo2.png
+	align=right
+?image=logo1.jpg
+	align=left
