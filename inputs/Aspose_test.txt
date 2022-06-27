@@ -1,6 +1,3 @@
-?image=logo1.jpg
-	align=left
-
 ?text=Patient Name__________________________________
 
 ?grid=Patient ID
@@ -22,11 +19,7 @@
 	(0) (1) (2) (3) (4) (5)
 #Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
 	(0) (1) (2) (3) (4) (5)
-#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
-	(0) (1) (2) (3) (4) (5)
-#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
-	(0) (1) (2) (3) (4) (5)
-#Hirap ako sa pagtayo ng tuwid (I have a hard time standing straight)
+#Ako ay madalas pinupulikat at parang pinapasma sa mga braso at binti (I experience muscle spasms in my arms and legs)
 	(0) (1) (2) (3) (4) (5)
 
 
