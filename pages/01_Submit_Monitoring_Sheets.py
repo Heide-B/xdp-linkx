@@ -245,7 +245,7 @@ st.write('3. Intayin ang kumpirmasyon na naupload ang resulta')
 st.title("")
 st.title("")
 with st.form('Submission form'):
-    image_main = st.camera_input()
+    image_main = st.camera_input('Kunan ng letrato ang papel')
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
     submitted = st.form_submit_button("Submit")
     if submitted:
