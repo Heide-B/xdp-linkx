@@ -248,9 +248,9 @@ with st.form('Submission form'):
     image_main = st.camera_input(label='Kunan ng letrato ang papel', key='1')
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
     submitted = st.form_submit_button("Submit")
-    if submitted:
-        img = Image.open(image_main)
-        st.image(image)
+    if submitted and image_main is not None:
+        img = uploaded_file.read()
+        st.image(img)
 #        with st.spinner('Submission in progress'):
            # newImg1 = Image.open(image)
            # newImg1.save("./inputs/test.jpg")
