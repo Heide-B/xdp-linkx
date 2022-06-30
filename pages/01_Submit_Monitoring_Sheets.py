@@ -246,11 +246,11 @@ st.title("")
 st.title("")
 with st.form('Submission form'):
     c1,c2 = st.columns(2)
-    image_main = st.camera_input('Kunan ng letrato ang papel')
+    image_main = st.camera_input()
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
     submitted = st.form_submit_button("Submit")
     if submitted:
-        st.image(image_main)
+        st.write(image_main.getvalue())
 #        with st.spinner('Submission in progress'):
            # newImg1 = Image.open(image)
            # newImg1.save("./inputs/test.jpg")
