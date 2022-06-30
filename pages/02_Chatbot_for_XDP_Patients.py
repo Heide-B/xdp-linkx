@@ -49,7 +49,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p><a href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py">Return Home</a>
+<p><a href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/">Return Home</a>
 <p>Developed with ❤ by</p>
 <p><strong>LinkX: Log and Information Exchange</strong></p>
 </div>

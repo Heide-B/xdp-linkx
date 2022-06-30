@@ -63,7 +63,7 @@ style = """
 """
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Chatbot_for_XDP_Patients">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Chatbot_for_XDP_Patients">
     <button class="button button1">
         💬 Chatbot for XDP Patients
     </button>
@@ -72,7 +72,7 @@ c2.markdown(f"""<style>{style}</style>
 c2.title("")
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Submit_Monitoring_Sheets">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Submit_Monitoring_Sheets">
     <button class="button button1">
         📝 Record Symptoms
     </button>
@@ -81,7 +81,7 @@ c2.markdown(f"""<style>{style}</style>
 c2.title("")
 
 c2.write(f"""<style>{style}</style>
-<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Read_Up_On_XDP">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Read_Up_On_XDP">
     <button class="button button1">
         📖 Read up on XDP
     </button>
@@ -90,7 +90,7 @@ c2.write(f"""<style>{style}</style>
 c2.title("")
 
 c2.write(f"""<style>{style}</style>
-<a target="_self" href="https://share.streamlit.io/heide-b/xdp-linkx/main/xdp.py/Experts_Dashboard">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Experts_Dashboard">
     <button class="button button1">
         🏢 Expert's Portal
     </button>
