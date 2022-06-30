@@ -244,28 +244,26 @@ st.write('2. Iclick ang allow sa pag gamit ng camera at picturan ang buong papel
 st.write('3. Intayin ang kumpirmasyon na naupload ang resulta')
 st.title("")
 st.title("")
-with st.form('Submission form'):
-    image_main = st.camera_input(label='Kunan ng letrato ang papel', key='1')
+image_main = st.camera_input(label='Kunan ng letrato ang papel', key='1')
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
-    submitted = st.form_submit_button("Submit")
-    if submitted and image_main is not None:
-        img = uploaded_file.read()
-        st.image(img)
+if image_main is not None:
+    img = image_main.read()
+    st.image(img)
 #        with st.spinner('Submission in progress'):
-           # newImg1 = Image.open(image)
-           # newImg1.save("./inputs/test.jpg")
-           # run_analyzer('test.jpg')
-           # sed = pd.read_csv('./temp/test.dat', header=None)
-           # sed['key'] = sed[0].apply(lambda x: x.split(':')[0])
-           # sed['value'] = sed[0].apply(lambda x: x.split(':')[1])
-           # sed = sed.drop(columns=0)
-           # sed = sed.T
-           # new_header = sed.iloc[0]
-           # sed = sed[1:]
-           # sed.columns = new_header 
-           # sed.insert(loc=0, column='Date', value=date)
-           # sed.to_csv('patient_results.csv', mode='a', index=False, header=False)
-     #   st.success('Salamat sa pag submit!')
+       # newImg1 = Image.open(image)
+       # newImg1.save("./inputs/test.jpg")
+       # run_analyzer('test.jpg')
+       # sed = pd.read_csv('./temp/test.dat', header=None)
+       # sed['key'] = sed[0].apply(lambda x: x.split(':')[0])
+       # sed['value'] = sed[0].apply(lambda x: x.split(':')[1])
+       # sed = sed.drop(columns=0)
+       # sed = sed.T
+       # new_header = sed.iloc[0]
+       # sed = sed[1:]
+       # sed.columns = new_header 
+       # sed.insert(loc=0, column='Date', value=date)
+       # sed.to_csv('patient_results.csv', mode='a', index=False, header=False)
+ #   st.success('Salamat sa pag submit!')
         
 
 footer="""<style>
