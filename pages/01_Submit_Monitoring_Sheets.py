@@ -249,7 +249,7 @@ with st.form('Submission form'):
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
     submitted = st.form_submit_button("Submit")
     if submitted:
-        img = Image.open(iamge_main)
+        img = Image.open(image_main)
         st.image(image)
 #        with st.spinner('Submission in progress'):
            # newImg1 = Image.open(image)
