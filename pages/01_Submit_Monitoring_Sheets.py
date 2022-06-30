@@ -246,6 +246,7 @@ st.title("")
 st.title("")
 image_main = st.camera_input(label='Kunan ng letrato ang papel', key='1')
    # image = c2.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
+st.image(image_main)
 if image_main is not None:
     img = image_main.read()
     st.image(img)
