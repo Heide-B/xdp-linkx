@@ -6,6 +6,7 @@ import json
 import os
 from warnings import warn
 import six
+from PIL import Image
 import datetime
 import asposeomrcloud.apis.storage_api as storage_api
 from asposeomrcloud.configuration import Configuration
@@ -250,8 +251,8 @@ with st.form('Submission form'):
     submitted = st.form_submit_button("Submit")
     if submitted:
         with st.spinner('Submission in progress'):
-            with open ('./inputs/test.jpg','wb') as file:
-                  file.write(image.getvalue())
+            newImg1 = Image.open(image)
+            newImg1.save("./inputs/test.jpg")
             run_analyzer('test.jpg')
             sed = pd.read_csv('./temp/test.dat', header=None)
             sed['key'] = sed[0].apply(lambda x: x.split(':')[0])
