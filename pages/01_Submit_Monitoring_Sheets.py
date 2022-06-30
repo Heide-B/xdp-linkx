@@ -251,7 +251,7 @@ with st.form('Submission form'):
     if submitted:
         with st.spinner('Submission in progress'):
             with open ('./inputs/test.jpg','wb') as file:
-                  file.write(image.getbuffer())
+                  file.write(image.getvalue())
             run_analyzer('test.jpg')
             sed = pd.read_csv('./temp/test.dat', header=None)
             sed['key'] = sed[0].apply(lambda x: x.split(':')[0])
