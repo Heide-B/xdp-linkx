@@ -246,10 +246,11 @@ st.title("")
 st.title("")
 cam = st.camera_input(label='Kunan ng letrato ang papel', key='1')
 file = st.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
+image_main = None
 if cam is not None:
     image_main = cam
 elif file is not None:
-    image_main = cam
+    image_main = file
 if image_main is not None:
     img = Image.open(image_main)
     with st.spinner('Submission in progress'):
