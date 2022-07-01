@@ -32,7 +32,7 @@ elif st.session_state.init  == "English":
         st.write(f"Chatbot: {st.session_state['How common is XDP']}")
     elif inputs == "What causes XDP":
         st.write(f"Chatbot: {st.session_state['What causes XDP']}")
-    elif inputs == "What are the symptoms of XDP":
+    elif inputs.contains('symptoms'):
         st.write(f"Chatbot: {st.session_state['What are the symptoms of XDP']}")
     else:
         st.write("Chatbot: I'm sorry, I can't quite understand your question.")
