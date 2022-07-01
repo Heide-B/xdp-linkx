@@ -26,9 +26,9 @@ elif st.session_state.init  == "English":
     st.caption('What causes XDP')
     st.caption('What are the symptoms of XDP')
     inputs = st.text_input('You: ')
-    if inputs == 'What is XDP':
+    if inputs.lower() == 'what is xdp':
         st.write(f"Chatbot: {st.session_state['What is XDP']}")
-    elif inputs == "How common is XDP":
+    elif 'common' in inputs:
         st.write(f"Chatbot: {st.session_state['How common is XDP']}")
     elif inputs == "What causes XDP":
         st.write(f"Chatbot: {st.session_state['What causes XDP']}")

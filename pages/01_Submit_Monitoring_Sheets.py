@@ -244,8 +244,12 @@ st.write('2. Iclick ang allow sa pag gamit ng camera at picturan ang buong papel
 st.write('3. Intayin ang kumpirmasyon na naupload ang resulta')
 st.title("")
 st.title("")
-#image_main = st.camera_input(label='Kunan ng letrato ang papel', key='1')
-image_main= st.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
+cam = st.camera_input(label='Kunan ng letrato ang papel', key='1')
+file = st.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg", "jpeg"])
+if cam is not None:
+    image_main = cam
+elif file is not None:
+    image_main = cam
 if image_main is not None:
     img = Image.open(image_main)
     with st.spinner('Submission in progress'):
