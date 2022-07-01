@@ -21,7 +21,6 @@ if 'init' not in st.session_state:
 elif st.session_state.init  == "English":
     st.write("Chatbot: It's good to have you here! I can answer your questions about XDP. Feel free to ask any of the questions below.")
     inputs = st.text_input('You: ')
-    inputs = set(inputs.split(' '))
     if inputs == 'What is XDP':
     #q1 = st.checkbox("What is XDP")
  #   if q1:
