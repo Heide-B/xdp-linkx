@@ -22,7 +22,7 @@ elif st.session_state.init  == "English":
     st.write("Chatbot: It's good to have you here! I can answer your questions about XDP. Feel free to ask any of the questions below.")
     inputs = st.text_input('You: ')
     inputs = set(inputs.split(' '))
-    if inputs in set('What is XDP'.split(" ")):
+    if inputs == 'What is XDP':
     #q1 = st.checkbox("What is XDP")
  #   if q1:
         st.write(f"Chatbot: {st.session_state['What is XDP']}")
