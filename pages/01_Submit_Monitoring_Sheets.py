@@ -249,8 +249,7 @@ image_main= st.file_uploader('Mag upload ng larawan ng papel', type=["png", "jpg
 if image_main is not None:
     img = Image.open(image_main)
     with st.spinner('Submission in progress'):
-        newImg1 = Image.open(image)
-        newImg1.save("./inputs/test.jpg")
+        img.save("./inputs/test.jpg")
         run_analyzer('test.jpg')
         sed = pd.read_csv('./temp/test.dat', header=None)
         sed['key'] = sed[0].apply(lambda x: x.split(':')[0])
