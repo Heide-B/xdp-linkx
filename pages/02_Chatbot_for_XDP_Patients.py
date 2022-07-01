@@ -20,8 +20,12 @@ if 'init' not in st.session_state:
             st.session_state.init = "Filipino"
 elif st.session_state.init  == "English":
     st.write("Chatbot: It's good to have you here! I can answer your questions about XDP. Feel free to ask any of the questions below.")
-    q1 = st.checkbox("What is XDP")
-    if q1:
+    inputs = st.text_input('You: ')
+    inputs = set(inputs.split(' '))
+    set2 = set(s2.split(' '))
+    if inputs is in set('What is XDP'.split(" ")):
+    #q1 = st.checkbox("What is XDP")
+ #   if q1:
         st.write(f"Chatbot: {st.session_state['What is XDP']}")
     q2 = st.checkbox("How common is XDP")
     if q2:
