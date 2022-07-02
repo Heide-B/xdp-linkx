@@ -224,7 +224,7 @@ def run_analyzer(user_image):
     api = OmrApi(configuration)
     storage = storage_api.StorageApi(configuration)
 
-    upload_demo_files(storage, './inputs')
+    upload_demo_files(storage, './inputs/')
     res_gen = generate_template(api, storage, os.path.join('./inputs', TEMPLATE_DST_NAME), LOGOS_FOLDER_NAME)
     if res_gen.error_code == 0:
         deserialize_files(res_gen.payload.result.response_files, PATH_TO_OUTPUT)
