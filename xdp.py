@@ -63,18 +63,18 @@ style = """
 """
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Chatbot_for_XDP_Patients">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Submit_Monitoring_Sheets">
     <button class="button button1">
-        💬 Chatbot for XDP Patients
+        📝 Record Symptoms
     </button>
 </a>""",unsafe_allow_html=True)
 
 c2.title("")
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Submit_Monitoring_Sheets">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Chatbot_for_XDP_Patients">
     <button class="button button1">
-        📝 Record Symptoms
+        💬 TalkX: XDP Chatbot
     </button>
 </a>""",unsafe_allow_html=True)
 

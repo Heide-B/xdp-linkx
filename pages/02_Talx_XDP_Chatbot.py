@@ -6,7 +6,7 @@ data = pd.read_csv('chatbot.csv')
 for index, row in data.iterrows():
     st.session_state[row['question_eng']] = row['response_eng']
 
-st.header("Welcome to TalX: The chatbot for XDP Patients")
+st.header("Welcome to TalX: The XDP chatbot")
 if 'init' not in st.session_state:
     with st.form('Discussion'):
         st.write(f"Chatbot: Welcome! Would you prefer to chat in English or Filipino?")
@@ -23,7 +23,6 @@ elif st.session_state.init  == "English":
     st.caption('Here are some suggested questions:')
     st.caption('What is XDP')
     st.caption('How common is XDP')
-    st.caption('What causes XDP')
     st.caption('What are the symptoms of XDP')
     inputs = st.text_input('You: ')
     if inputs.lower() == 'what is xdp':
