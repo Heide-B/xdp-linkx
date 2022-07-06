@@ -63,7 +63,7 @@ style = """
 """
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Submit_Monitoring_Sheets">
+<a href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Submit_Monitoring_Sheets">
     <button class="button button1">
         📝 Record Symptoms
     </button>
