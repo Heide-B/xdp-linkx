@@ -281,9 +281,9 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p><a href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/">Return Home</a>
+<p><a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/">Return Home</a>
 <p>Developed with ❤ by</p>
-<p><strong>LinkX: Log and Information Exchange</strong></p>
+<p><strong>Heide and Justin Balcera</strong></p>
 </div>
 """
 

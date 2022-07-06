@@ -5,8 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import base64
 
-ucred = ['admin']
-upw = ['admin']
+ucred = st.secrets["ucred"]
+upw = st.secrets["upw"]
 st.set_page_config(initial_sidebar_state="collapsed")
 
 def set_bg_hack(main_bg):
@@ -92,9 +92,9 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p><a href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/">Return Home</a>
+<p><a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/">Return Home</a>
 <p>Developed with ❤ by</p>
-<p><strong>LinkX: Log and Information Exchange</strong></p>
+<p><strong>Heide and Justin Balcera</strong></p>
 </div>
 """
 
