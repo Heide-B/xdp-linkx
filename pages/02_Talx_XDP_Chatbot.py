@@ -36,7 +36,7 @@ elif st.session_state.init  == "English":
         st.write(f"TalX: {st.session_state['What are the symptoms of XDP']}")
     else:
         st.write("TalX: I'm sorry, I can't quite understand your question.")
-elif st.session_state.init  == "English":
+elif st.session_state.init  == "Filipino":
     st.write('Mabuhay! Kaya kong sagutin ang mga tanong mo ukol sa XDP.')
     st.caption('Nandito ang mga halimbawa na tanong')
     st.caption('Ano ang XDP')
@@ -45,8 +45,6 @@ elif st.session_state.init  == "English":
         st.write(f"TalX: {st.session_state['Ano ang XDP']}")
     else:
         st.write(f"TalX: Paumanhin, hindi ko naintindihan ang tanong mo.")
-elif st.session_state.init != '':
-    st.write(f"Chatbot: {st.session_state[user_q]}")
 
 
 footer="""<style>
