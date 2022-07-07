@@ -72,7 +72,7 @@ c2.markdown(f"""<style>{style}</style>
 c2.title("")
 
 c2.markdown(f"""<style>{style}</style>
-<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Chatbot_for_XDP_Patients">
+<a target="_self" href="https://heide-b-xdp-linkx-xdp-q0f98p.streamlitapp.com/Talx_XDP_Chatbot">
     <button class="button button1">
         💬 TalkX: XDP Chatbot
     </button>
